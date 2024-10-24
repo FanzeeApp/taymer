@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.timer-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.timer-container .time-inputs {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.timer-container .time-inputs input {
+  width: 50px;
+  height: 50px;
+  font-size: 2rem;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin: 0 5px;
+  outline: none;
+}
+.timer-container .time-inputs input:focus {
+  border-color: #007bff;
+}
+.timer-container .time-inputs span {
+  font-size: 2rem;
+}
+.timer-container .buttons button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: background-color 0.3s ease;
+}
+.timer-container .buttons button:hover {
+  background-color: #0056b3;
+}
+.timer-container .buttons button:active {
+  transform: scale(0.98);
+}
+.timer-container .buttons button:focus {
+  outline: none;
+}
+.timer-container .buttons button:disabled {
+  background-color: #ccc;
+}/*# sourceMappingURL=style.css.map */
